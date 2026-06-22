@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chihuahua Spa - Agenda su baño</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🐶 Chihuahua Spa</h1>
+    <p>Agenda el baño perfecto para tu chihuahua</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Cuidado premium para perritos pequeños</h2>
+      <p>Higiene, amor y estilo para tu mejor amigo</p>
+    </section>
+
+    <section class="form-section">
+      <h2>Agenda una cita</h2>
+      <form id="bookingForm">
+        <input type="text" placeholder="Nombre del dueño" required />
+        <input type="text" placeholder="Nombre del chihuahua" required />
+        <input type="tel" placeholder="Teléfono" required />
+        <input type="date" required />
+        <select required>
+          <option value="">Tipo de servicio</option>
+          <option>Baño básico</option>
+          <option>Baño premium</option>
+          <option>Baño + corte</option>
+        </select>
+        <button type="submit">Agendar</button>
+      </form>
+      <p id="msg"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Chihuahua Spa</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
